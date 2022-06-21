@@ -1,1 +1,93 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T13:45:19.232Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36" version="20.0.1" etag="1k3M2bPEnJ1P4YOG4RBq" type="github"><diagram id="YQ3vm5A2mOFX5JEQycD4">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-21T14:44:55.530Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36" etag="eQJoCSTVRt_WonEN40sl" version="20.0.1" type="github">
+  <diagram id="YQ3vm5A2mOFX5JEQycD4" name="Page-1">
+    <mxGraphModel dx="1784" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="M-BR-tlzvYzu-fDyBxDO-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="260" as="sourcePoint" />
+            <mxPoint x="330" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-BR-tlzvYzu-fDyBxDO-1" value="CA&lt;br&gt;(ACM)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M-BR-tlzvYzu-fDyBxDO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M-BR-tlzvYzu-fDyBxDO-3" target="M-BR-tlzvYzu-fDyBxDO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M-BR-tlzvYzu-fDyBxDO-3" value="Signio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M-BR-tlzvYzu-fDyBxDO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="279" as="sourcePoint" />
+            <mxPoint x="440" y="279" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-BR-tlzvYzu-fDyBxDO-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M-BR-tlzvYzu-fDyBxDO-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-BR-tlzvYzu-fDyBxDO-4" value="ApiSign" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M-BR-tlzvYzu-fDyBxDO-6" value="Signio realiza la solicitud de firma del documento" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="111" y="190" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M-BR-tlzvYzu-fDyBxDO-8" value="ApiSign Solicita al CA una llave privada" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="190" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M-BR-tlzvYzu-fDyBxDO-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=-0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="417" as="sourcePoint" />
+            <mxPoint x="270" y="477.01" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-BR-tlzvYzu-fDyBxDO-9" value="ApiSign genera el certificado de firma." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="380" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M-BR-tlzvYzu-fDyBxDO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.027;entryY=0.337;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="M-BR-tlzvYzu-fDyBxDO-11" target="M-BR-tlzvYzu-fDyBxDO-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M-BR-tlzvYzu-fDyBxDO-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="M-BR-tlzvYzu-fDyBxDO-11" target="M-BR-tlzvYzu-fDyBxDO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M-BR-tlzvYzu-fDyBxDO-11" value="ApiSign firma el documento" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="480" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M-BR-tlzvYzu-fDyBxDO-13" value="CA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="449" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="M-BR-tlzvYzu-fDyBxDO-14" value="S3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="484" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="M-BR-tlzvYzu-fDyBxDO-16" value="Se almacena la llave privada y certificado en un repositorio" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="538" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M-BR-tlzvYzu-fDyBxDO-18" value="Se retorna el documento firmado a Signio" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="388" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M-BR-tlzvYzu-fDyBxDO-19" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="91" y="195" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M-BR-tlzvYzu-fDyBxDO-20" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="310" y="195" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M-BR-tlzvYzu-fDyBxDO-21" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="190" y="380" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M-BR-tlzvYzu-fDyBxDO-22" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="260" y="518" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M-BR-tlzvYzu-fDyBxDO-23" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="404" y="538" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M-BR-tlzvYzu-fDyBxDO-24" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="429" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
